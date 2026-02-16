@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 import {
   CastThemeProvider,
-  useTheme,
   Button,
   Card,
   googleFontsUrl,
@@ -15,53 +14,17 @@ import type { CastTheme } from '@castui/cast-ui';
 
 const themes: CastTheme[] = [whiteLabel, consumer, corporate, luxury];
 
-const themeDisplayNames: Record<string, string> = {
-  'white-label': 'White Label',
-  consumer: 'Consumer',
-  corporate: 'Corporate',
-  luxury: 'Luxury',
-};
-
 function AppContent({ onCycleTheme }: { onCycleTheme: () => void }) {
-  const theme = useTheme();
-
   return (
     <View style={styles.container}>
-      <Text
-        style={[
-          styles.heading,
-          {
-            color: theme.semantic.color.onSurface,
-            fontFamily: theme.semantic.fontFamily.brand,
-            fontSize: theme.semantic.fontSize.h1,
-            fontWeight: String(theme.semantic.fontWeight.heading) as '400' | '500' | '700',
-          },
-        ]}
-      >
-        {themeDisplayNames[theme.name] ?? theme.name}
-      </Text>
-
-      <Text
-        style={[
-          styles.subtitle,
-          {
-            color: theme.semantic.color.onSurfaceMuted,
-            fontFamily: theme.semantic.fontFamily.interface,
-            fontSize: theme.semantic.fontSize.body,
-          },
-        ]}
-      >
-        Cast UI Design System
-      </Text>
-
       <View style={styles.cardWrapper}>
         <Card
           title="Theme Preview"
-          subtitle={`Currently viewing the ${themeDisplayNames[theme.name] ?? theme.name} theme`}
+          subtitle="Cast UI Design System"
           body="This card demonstrates the theme's surface treatment, typography, elevation, and border radius. Try switching themes to see how each design language transforms the same components."
           actions={
             <View style={styles.cardActions}>
-              <Button label="Primary Action" variant="filled" onPress={onCycleTheme} />
+              <Button label="Primary Action" variant="filled" onPress={() => {}} />
               <Button label="Secondary" variant="outline" onPress={() => {}} />
             </View>
           }
@@ -123,12 +86,6 @@ const styles = StyleSheet.create({
     paddingVertical: 64,
     paddingHorizontal: 24,
     minHeight: '100vh' as unknown as number,
-  },
-  heading: {
-    marginBottom: 8,
-  },
-  subtitle: {
-    marginBottom: 40,
   },
   cardWrapper: {
     width: '100%',
