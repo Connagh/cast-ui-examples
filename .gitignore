@@ -3,20 +3,19 @@
 
 # Allow project structure
 !.gitignore
+!.gitattributes
 !.github/
 !.github/**
 
-# Allow source files
-!src/
-!src/**/*.tsx
-!src/**/*.ts
+# Allow example folders
+!website/
+!website/**
+!expo-snack/
+!expo-snack/**
 
-# Allow config files
-!package.json
-!package-lock.json
-!tsconfig.json
-!vite.config.ts
-!index.html
+# Ignore build artifacts inside examples
+website/node_modules
+website/dist
 
 # Allow docs
 !LICENSE
