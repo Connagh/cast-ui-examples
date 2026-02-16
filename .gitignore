@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Allow project structure
+!.gitignore
+!.github/
+!.github/**
+
+# Allow source files
+!src/
+!src/**/*.tsx
+!src/**/*.ts
+
+# Allow config files
+!package.json
+!package-lock.json
+!tsconfig.json
+!vite.config.ts
+!index.html
+
+# Allow docs
+!LICENSE
