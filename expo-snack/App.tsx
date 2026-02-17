@@ -6,17 +6,23 @@ import {
   CastThemeProvider,
   Card,
   Button,
-  whiteLabel,
-  consumer,
-  corporate,
-  luxury,
+  defaultTheme,
+  createTheme,
 } from '@castui/cast-ui';
 
+import consumerOverrides from '../themes/consumer.json';
+import corporateOverrides from '../themes/corporate.json';
+import luxuryOverrides from '../themes/luxury.json';
+
+const consumerTheme = createTheme(consumerOverrides);
+const corporateTheme = createTheme(corporateOverrides);
+const luxuryTheme = createTheme(luxuryOverrides);
+
 const themes = [
-  { name: 'White Label', value: whiteLabel },
-  { name: 'Consumer', value: consumer },
-  { name: 'Corporate', value: corporate },
-  { name: 'Luxury', value: luxury },
+  { name: 'Default', value: defaultTheme },
+  { name: 'Consumer', value: consumerTheme },
+  { name: 'Corporate', value: corporateTheme },
+  { name: 'Luxury', value: luxuryTheme },
 ];
 
 export default function App() {

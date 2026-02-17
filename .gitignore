@@ -12,10 +12,21 @@
 !website/**
 !expo-snack/
 !expo-snack/**
+!storybook-example/
+!storybook-example/**
 
-# Ignore build artifacts inside examples
+# Allow shared theme overrides
+!themes/
+!themes/**
+
+# Ignore build artifacts and dependencies inside examples
 website/node_modules
 website/dist
+storybook-example/node_modules
+storybook-example/storybook-static
 
 # Allow docs
 !LICENSE
+!README.md
+!case-study.md
+!cast-zeroheight-site-plan.md

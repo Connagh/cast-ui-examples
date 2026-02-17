@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@castui/cast-ui": "^0.3.0",
+    "@castui/cast-ui": "^0.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-native": "^0.76.9",

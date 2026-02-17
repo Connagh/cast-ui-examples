@@ -4,15 +4,21 @@ import {
   CastThemeProvider,
   Button,
   Card,
+  defaultTheme,
+  createTheme,
   googleFontsUrl,
-  whiteLabel,
-  consumer,
-  corporate,
-  luxury,
 } from '@castui/cast-ui';
 import type { CastTheme } from '@castui/cast-ui';
 
-const themes: CastTheme[] = [whiteLabel, consumer, corporate, luxury];
+import consumerOverrides from '../../themes/consumer.json';
+import corporateOverrides from '../../themes/corporate.json';
+import luxuryOverrides from '../../themes/luxury.json';
+
+const consumerTheme = createTheme(consumerOverrides);
+const corporateTheme = createTheme(corporateOverrides);
+const luxuryTheme = createTheme(luxuryOverrides);
+
+const themes: CastTheme[] = [defaultTheme, consumerTheme, corporateTheme, luxuryTheme];
 
 function AppContent({ onCycleTheme }: { onCycleTheme: () => void }) {
   return (
@@ -48,7 +54,7 @@ export default function App() {
 
   // Dynamic font loading
   useEffect(() => {
-    const url = googleFontsUrl(currentTheme.name);
+    const url = googleFontsUrl(currentTheme);
     const linkId = 'cast-ui-fonts';
     let link = document.getElementById(linkId) as HTMLLinkElement | null;
 
