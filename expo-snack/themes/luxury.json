@@ -41,7 +41,7 @@
     "fontWeight": { "button": 700 },
     "paragraphSpacing": { "body": 32, "editorial": 48 },
     "paragraphIndent": { "editorial": 32 },
-    "borderRadius": { "small": 0, "medium": 0, "large": 0 }
+    "borderRadius": { "small": 0, "medium": 0, "large": 0, "full": 0 }
   },
   "component": {
     "button": {
@@ -73,6 +73,120 @@
       "headingSize": 25,
       "headingFontFamily": "Playfair Display",
       "bodyFontFamily": "Cormorant Garamond"
+    },
+    "textField": {
+      "paddingHorizontal": 16,
+      "paddingVertical": 12,
+      "cornerRadius": 0,
+      "borderWidth": 1,
+      "background": "#000000",
+      "borderColor": "#947C3E",
+      "focusBorderColor": "#CAAD5F",
+      "errorBorderColor": "#E46262",
+      "textColor": "#E9D8A6",
+      "placeholderColor": "#B1B1B1",
+      "fontFamily": "Cormorant Garamond",
+      "labelColor": "#E9D8A6"
+    },
+    "checkbox": {
+      "cornerRadius": 0,
+      "borderColor": "#947C3E",
+      "checkedBackground": "#CAAD5F",
+      "checkedIconColor": "#000000",
+      "labelColor": "#E9D8A6",
+      "labelFontFamily": "Cormorant Garamond"
+    },
+    "fab": {
+      "cornerRadius": 0,
+      "background": "#CAAD5F",
+      "iconColor": "#000000",
+      "hoverBackground": "#E9D8A6",
+      "pressedBackground": "#947C3E",
+      "elevation": 0
+    },
+    "autocomplete": {
+      "dropdownBackground": "#000000",
+      "dropdownCornerRadius": 0,
+      "optionHoverBackground": "#696969"
+    },
+    "select": {
+      "dropdownBackground": "#000000",
+      "dropdownCornerRadius": 0,
+      "optionHoverBackground": "#696969",
+      "indicatorColor": "#CAAD5F"
+    },
+    "switch": {
+      "trackCornerRadius": 0,
+      "trackOffBackground": "#947C3E",
+      "trackOnBackground": "#CAAD5F",
+      "thumbCornerRadius": 0,
+      "thumbOffBackground": "#000000",
+      "thumbOnBackground": "#000000"
+    },
+    "badge": {
+      "cornerRadius": 0,
+      "fontFamily": "Cormorant Garamond"
+    },
+    "chip": {
+      "cornerRadius": 0,
+      "background": "#3D3D3D",
+      "contentColor": "#D8D8D8",
+      "selectedBackground": "#6B592D",
+      "selectedContentColor": "#E9D8A6",
+      "fontFamily": "Cormorant Garamond"
+    },
+    "divider": {
+      "color": "#947C3E"
+    },
+    "table": {
+      "headerBackground": "#696969",
+      "cornerRadius": 0,
+      "rowBorderColor": "#947C3E",
+      "fontFamily": "Cormorant Garamond"
+    },
+    "alert": {
+      "cornerRadius": 0,
+      "borderWidth": 1
+    },
+    "backdrop": {
+      "opacity": 0.7
+    },
+    "skeleton": {
+      "background": "#3D3D3D",
+      "highlight": "#696969",
+      "cornerRadius": 0
+    },
+    "snackbar": {
+      "background": "#E9D8A6",
+      "contentColor": "#000000",
+      "actionColor": "#CAAD5F",
+      "cornerRadius": 0,
+      "fontFamily": "Cormorant Garamond"
+    },
+    "dialog": {
+      "background": "#000000",
+      "cornerRadius": 0,
+      "elevation": 0,
+      "titleFontFamily": "Playfair Display",
+      "bodyFontFamily": "Cormorant Garamond"
+    },
+    "appBar": {
+      "background": "#000000",
+      "titleColor": "#E9D8A6",
+      "titleFontFamily": "Playfair Display",
+      "iconColor": "#CAAD5F",
+      "borderColor": "#947C3E"
+    },
+    "link": {
+      "color": "#CAAD5F",
+      "hoverColor": "#E9D8A6",
+      "visitedColor": "#B1B1B1"
+    },
+    "speedDial": {
+      "actionBackground": "#3D3D3D",
+      "actionIconColor": "#E9D8A6",
+      "actionCornerRadius": 0,
+      "actionElevation": 0
     }
   }
 }

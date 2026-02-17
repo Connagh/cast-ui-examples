@@ -46,6 +46,44 @@
       "elevation": 2,
       "headingFontFamily": "Merriweather",
       "bodyFontFamily": "Inter"
+    },
+    "textField": {
+      "paddingHorizontal": 16,
+      "cornerRadius": 4,
+      "borderColor": "#9EC2E9",
+      "focusBorderColor": "#0C346F",
+      "fontFamily": "Inter"
+    },
+    "checkbox": {
+      "cornerRadius": 2,
+      "checkedBackground": "#0C346F",
+      "labelFontFamily": "Inter"
+    },
+    "fab": {
+      "background": "#0C346F",
+      "hoverBackground": "#628BE4",
+      "pressedBackground": "#9EC2E9"
+    },
+    "chip": {
+      "cornerRadius": 2,
+      "fontFamily": "Inter"
+    },
+    "snackbar": {
+      "cornerRadius": 4,
+      "fontFamily": "Inter"
+    },
+    "dialog": {
+      "cornerRadius": 8,
+      "titleFontFamily": "Merriweather",
+      "bodyFontFamily": "Inter"
+    },
+    "appBar": {
+      "titleFontFamily": "Merriweather",
+      "borderColor": "#9EC2E9"
+    },
+    "table": {
+      "cornerRadius": 4,
+      "fontFamily": "Inter"
     }
   }
 }
