@@ -34,20 +34,10 @@
       "paddingVertical": 12,
       "cornerRadius": 4,
       "fontFamily": "Inter",
-      "filled": {
-        "background": "#0C346F"
-      },
-      "outline": {
-        "border": "#0C346F",
-        "content": "#0C346F"
-      },
-      "text": {
-        "content": "#0C346F"
-      },
-      "state": {
-        "hoverBackground": "#628BE4",
-        "pressedBackground": "#9EC2E9"
-      }
+      "filled": { "background": "#0C346F" },
+      "outline": { "border": "#0C346F", "content": "#0C346F" },
+      "text": { "content": "#0C346F" },
+      "state": { "hoverBackground": "#628BE4", "pressedBackground": "#9EC2E9" }
     },
     "card": {
       "gap": 8,

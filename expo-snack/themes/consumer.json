@@ -32,20 +32,10 @@
       "paddingVertical": 12,
       "cornerRadius": 24,
       "fontFamily": "Poppins",
-      "filled": {
-        "background": "#553C9A"
-      },
-      "outline": {
-        "border": "#553C9A",
-        "content": "#553C9A"
-      },
-      "text": {
-        "content": "#553C9A"
-      },
-      "state": {
-        "hoverBackground": "#9F7AEA",
-        "pressedBackground": "#D6BCFA"
-      }
+      "filled": { "background": "#553C9A" },
+      "outline": { "border": "#553C9A", "content": "#553C9A" },
+      "text": { "content": "#553C9A" },
+      "state": { "hoverBackground": "#9F7AEA", "pressedBackground": "#D6BCFA" }
     },
     "card": {
       "padding": 24,

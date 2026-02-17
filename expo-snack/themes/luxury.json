@@ -37,24 +37,11 @@
       "brand": "Playfair Display",
       "interface": "Cormorant Garamond"
     },
-    "fontSize": {
-      "button": 12.8
-    },
-    "fontWeight": {
-      "button": 700
-    },
-    "paragraphSpacing": {
-      "body": 32,
-      "editorial": 48
-    },
-    "paragraphIndent": {
-      "editorial": 32
-    },
-    "borderRadius": {
-      "small": 0,
-      "medium": 0,
-      "large": 0
-    }
+    "fontSize": { "button": 12.8 },
+    "fontWeight": { "button": 700 },
+    "paragraphSpacing": { "body": 32, "editorial": 48 },
+    "paragraphIndent": { "editorial": 32 },
+    "borderRadius": { "small": 0, "medium": 0, "large": 0 }
   },
   "component": {
     "button": {
@@ -65,19 +52,9 @@
       "textSize": 12.8,
       "fontWeight": 700,
       "fontFamily": "Cormorant Garamond",
-      "filled": {
-        "background": "#CAAD5F",
-        "content": "#000000"
-      },
-      "outline": {
-        "background": "#000000",
-        "border": "#CAAD5F",
-        "content": "#CAAD5F"
-      },
-      "text": {
-        "background": "#000000",
-        "content": "#CAAD5F"
-      },
+      "filled": { "background": "#CAAD5F", "content": "#000000" },
+      "outline": { "background": "#000000", "border": "#CAAD5F", "content": "#CAAD5F" },
+      "text": { "background": "#000000", "content": "#CAAD5F" },
       "state": {
         "hoverBackground": "#E9D8A6",
         "pressedBackground": "#947C3E",
