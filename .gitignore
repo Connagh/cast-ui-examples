@@ -5,13 +5,9 @@
 !.gitignore
 !.gitattributes
 
-# Allow Expo Snack example
+# Allow Expo Snack example (themes live inside expo-snack/themes/)
 !expo-snack/
 !expo-snack/**
-
-# Allow shared theme overrides
-!themes/
-!themes/**
 
 # Allow docs
 !LICENSE

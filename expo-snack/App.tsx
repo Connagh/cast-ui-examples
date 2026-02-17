@@ -10,9 +10,9 @@ import {
   createTheme,
 } from '@castui/cast-ui';
 
-import consumerOverrides from '../themes/consumer.json';
-import corporateOverrides from '../themes/corporate.json';
-import luxuryOverrides from '../themes/luxury.json';
+import consumerOverrides from './themes/consumer.json';
+import corporateOverrides from './themes/corporate.json';
+import luxuryOverrides from './themes/luxury.json';
 
 const consumerTheme = createTheme(consumerOverrides);
 const corporateTheme = createTheme(corporateOverrides);
