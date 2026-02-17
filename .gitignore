@@ -4,26 +4,14 @@
 # Allow project structure
 !.gitignore
 !.gitattributes
-!.github/
-!.github/**
 
-# Allow example folders
-!website/
-!website/**
+# Allow Expo Snack example
 !expo-snack/
 !expo-snack/**
-!storybook-example/
-!storybook-example/**
 
 # Allow shared theme overrides
 !themes/
 !themes/**
-
-# Ignore build artifacts and dependencies inside examples
-website/node_modules
-website/dist
-storybook-example/node_modules
-storybook-example/storybook-static
 
 # Allow docs
 !LICENSE
