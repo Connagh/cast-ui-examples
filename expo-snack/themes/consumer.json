@@ -366,7 +366,9 @@
       "headingFontFamily": "Poppins",
       "bodySize": 16,
       "bodyWeight": 400,
-      "bodyFontFamily": "Poppins"
+      "bodyFontFamily": "Poppins",
+      "headingColor": "#1A1235",
+      "bodyColor": "#6B4FBA"
     },
     "textField": {
       "paddingHorizontal": 12,
@@ -384,6 +386,7 @@
       "labelColor": "#1A1235",
       "labelSize": 12.8,
       "helperColor": "#6B4FBA",
+      "helperSize": 12.8,
       "errorColor": "#DC2626"
     },
     "checkbox": {
@@ -415,14 +418,25 @@
       "dropdownBackground": "#FFFFFF",
       "dropdownCornerRadius": 16,
       "dropdownElevation": 2,
-      "optionHoverBackground": "#FAF8FF"
+      "optionHoverBackground": "#FAF8FF",
+      "optionTextColor": "#1A1235",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Poppins"
     },
     "select": {
       "dropdownBackground": "#FFFFFF",
       "dropdownCornerRadius": 16,
       "dropdownElevation": 2,
       "optionHoverBackground": "#FAF8FF",
-      "indicatorColor": "#6B4FBA"
+      "indicatorColor": "#6B4FBA",
+      "optionTextColor": "#1A1235",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Poppins",
+      "selectedOptionBackground": "#D6BCFA"
     },
     "switch": {
       "trackWidth": 48,
@@ -436,6 +450,8 @@
       "thumbOnBackground": "#FFFFFF",
       "thumbOffset": 4,
       "labelColor": "#1A1235",
+      "labelSize": 16,
+      "labelFontFamily": "Poppins",
       "gap": 8
     },
     "badge": {
@@ -458,6 +474,7 @@
       "selectedBackground": "#D6BCFA",
       "selectedContentColor": "#3B2870",
       "borderWidth": 2,
+      "borderColor": "#D6BCFA",
       "textSize": 12.8,
       "fontFamily": "Poppins"
     },
@@ -491,6 +508,12 @@
       "gap": 8,
       "cornerRadius": 16,
       "borderWidth": 2,
+      "background": "#FAF8FF",
+      "borderColor": "#D6BCFA",
+      "titleColor": "#1A1235",
+      "bodyColor": "#1A1235",
+      "iconColor": "#1A1235",
+      "fontFamily": "Poppins",
       "iconSize": 24,
       "titleSize": 16,
       "titleFontWeight": 700,
@@ -515,6 +538,7 @@
       "cornerRadius": 16,
       "elevation": 4,
       "textSize": 16,
+      "fontWeight": 400,
       "fontFamily": "Poppins"
     },
     "dialog": {
@@ -527,7 +551,9 @@
       "titleFontWeight": 700,
       "titleFontFamily": "Poppins",
       "bodySize": 16,
-      "bodyFontFamily": "Poppins"
+      "bodyFontFamily": "Poppins",
+      "titleColor": "#1A1235",
+      "bodyColor": "#1A1235"
     },
     "appBar": {
       "height": 64,
@@ -552,6 +578,7 @@
       "actionSize": 32,
       "actionBackground": "#FAF8FF",
       "actionIconColor": "#1A1235",
+      "actionIconSize": 24,
       "actionCornerRadius": 9999,
       "gap": 8,
       "actionElevation": 2

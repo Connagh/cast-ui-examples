@@ -367,7 +367,9 @@
       "headingFontFamily": "Merriweather",
       "bodySize": 16,
       "bodyWeight": 400,
-      "bodyFontFamily": "Inter"
+      "bodyFontFamily": "Inter",
+      "headingColor": "#0C346F",
+      "bodyColor": "#4A6FA5"
     },
     "textField": {
       "paddingHorizontal": 12,
@@ -385,6 +387,7 @@
       "labelColor": "#0C346F",
       "labelSize": 12.8,
       "helperColor": "#4A6FA5",
+      "helperSize": 12.8,
       "errorColor": "#B91C1C"
     },
     "checkbox": {
@@ -416,14 +419,25 @@
       "dropdownBackground": "#FFFFFF",
       "dropdownCornerRadius": 4,
       "dropdownElevation": 2,
-      "optionHoverBackground": "#F0F5FB"
+      "optionHoverBackground": "#F0F5FB",
+      "optionTextColor": "#0C346F",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Inter"
     },
     "select": {
       "dropdownBackground": "#FFFFFF",
       "dropdownCornerRadius": 4,
       "dropdownElevation": 2,
       "optionHoverBackground": "#F0F5FB",
-      "indicatorColor": "#4A6FA5"
+      "indicatorColor": "#4A6FA5",
+      "optionTextColor": "#0C346F",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Inter",
+      "selectedOptionBackground": "#D6E3F1"
     },
     "switch": {
       "trackWidth": 48,
@@ -437,6 +451,8 @@
       "thumbOnBackground": "#FFFFFF",
       "thumbOffset": 4,
       "labelColor": "#0C346F",
+      "labelSize": 16,
+      "labelFontFamily": "Inter",
       "gap": 8
     },
     "badge": {
@@ -459,6 +475,7 @@
       "selectedBackground": "#D6E3F1",
       "selectedContentColor": "#0C346F",
       "borderWidth": 2,
+      "borderColor": "#B8CEE8",
       "textSize": 12.8,
       "fontFamily": "Inter"
     },
@@ -492,6 +509,12 @@
       "gap": 8,
       "cornerRadius": 4,
       "borderWidth": 2,
+      "background": "#F0F5FB",
+      "borderColor": "#B8CEE8",
+      "titleColor": "#0C346F",
+      "bodyColor": "#0C346F",
+      "iconColor": "#0C346F",
+      "fontFamily": "Inter",
       "iconSize": 24,
       "titleSize": 16,
       "titleFontWeight": 700,
@@ -516,6 +539,7 @@
       "cornerRadius": 4,
       "elevation": 3,
       "textSize": 16,
+      "fontWeight": 400,
       "fontFamily": "Inter"
     },
     "dialog": {
@@ -528,7 +552,9 @@
       "titleFontWeight": 700,
       "titleFontFamily": "Merriweather",
       "bodySize": 16,
-      "bodyFontFamily": "Inter"
+      "bodyFontFamily": "Inter",
+      "titleColor": "#0C346F",
+      "bodyColor": "#0C346F"
     },
     "appBar": {
       "height": 64,
@@ -553,6 +579,7 @@
       "actionSize": 32,
       "actionBackground": "#F0F5FB",
       "actionIconColor": "#0C346F",
+      "actionIconSize": 24,
       "actionCornerRadius": 9999,
       "gap": 8,
       "actionElevation": 2

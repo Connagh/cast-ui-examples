@@ -359,7 +359,9 @@
       "headingFontFamily": "Playfair Display",
       "bodySize": 16,
       "bodyWeight": 400,
-      "bodyFontFamily": "Cormorant Garamond"
+      "bodyFontFamily": "Cormorant Garamond",
+      "headingColor": "#E9D8A6",
+      "bodyColor": "#A8A8A8"
     },
     "textField": {
       "paddingHorizontal": 16,
@@ -377,6 +379,7 @@
       "labelColor": "#E9D8A6",
       "labelSize": 12.8,
       "helperColor": "#A8A8A8",
+      "helperSize": 12.8,
       "errorColor": "#C75050"
     },
     "checkbox": {
@@ -408,14 +411,25 @@
       "dropdownBackground": "#0A0A0A",
       "dropdownCornerRadius": 0,
       "dropdownElevation": 0,
-      "optionHoverBackground": "#1A1A1A"
+      "optionHoverBackground": "#1A1A1A",
+      "optionTextColor": "#E9D8A6",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Cormorant Garamond"
     },
     "select": {
       "dropdownBackground": "#0A0A0A",
       "dropdownCornerRadius": 0,
       "dropdownElevation": 0,
       "optionHoverBackground": "#1A1A1A",
-      "indicatorColor": "#CAAD5F"
+      "indicatorColor": "#CAAD5F",
+      "optionTextColor": "#E9D8A6",
+      "optionTextSize": 16,
+      "optionPaddingHorizontal": 16,
+      "optionPaddingVertical": 8,
+      "fontFamily": "Cormorant Garamond",
+      "selectedOptionBackground": "#2E2610"
     },
     "switch": {
       "trackWidth": 48,
@@ -429,6 +443,8 @@
       "thumbOnBackground": "#0A0A0A",
       "thumbOffset": 4,
       "labelColor": "#E9D8A6",
+      "labelSize": 16,
+      "labelFontFamily": "Cormorant Garamond",
       "gap": 8
     },
     "badge": {
@@ -451,6 +467,7 @@
       "selectedBackground": "#2E2610",
       "selectedContentColor": "#E9D8A6",
       "borderWidth": 1,
+      "borderColor": "#947C3E",
       "textSize": 12.8,
       "fontFamily": "Cormorant Garamond"
     },
@@ -484,6 +501,12 @@
       "gap": 8,
       "cornerRadius": 0,
       "borderWidth": 1,
+      "background": "#1A1A1A",
+      "borderColor": "#947C3E",
+      "titleColor": "#E9D8A6",
+      "bodyColor": "#E9D8A6",
+      "iconColor": "#E9D8A6",
+      "fontFamily": "Cormorant Garamond",
       "iconSize": 24,
       "titleSize": 16,
       "titleFontWeight": 700,
@@ -508,6 +531,7 @@
       "cornerRadius": 0,
       "elevation": 0,
       "textSize": 16,
+      "fontWeight": 400,
       "fontFamily": "Cormorant Garamond"
     },
     "dialog": {
@@ -520,7 +544,9 @@
       "titleFontWeight": 700,
       "titleFontFamily": "Playfair Display",
       "bodySize": 16,
-      "bodyFontFamily": "Cormorant Garamond"
+      "bodyFontFamily": "Cormorant Garamond",
+      "titleColor": "#E9D8A6",
+      "bodyColor": "#E9D8A6"
     },
     "appBar": {
       "height": 64,
@@ -545,6 +571,7 @@
       "actionSize": 32,
       "actionBackground": "#2A2A2A",
       "actionIconColor": "#E9D8A6",
+      "actionIconSize": 24,
       "actionCornerRadius": 0,
       "gap": 8,
       "actionElevation": 0
