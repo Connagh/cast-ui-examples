@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@castui/cast-ui": "0.4.0",
+    "@castui/cast-ui": "0.4.2",
     "expo-font": "~14.0.11",
     "@expo-google-fonts/inter": "0.4.2",
     "@expo-google-fonts/poppins": "0.4.1",
