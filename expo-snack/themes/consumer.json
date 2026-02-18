@@ -2,90 +2,111 @@
   "name": "consumer",
   "semantic": {
     "color": {
-      "onSurface": "#553C9A",
+      "surface": "#FFFFFF",
+      "onSurface": "#1A1235",
+      "onSurfaceMuted": "#6B5CA5",
+      "surfaceContainer": "#FAF8FF",
       "primary": "#553C9A",
-      "primaryHover": "#9F7AEA",
-      "primaryPressed": "#D6BCFA",
+      "onPrimary": "#FFFFFF",
+      "primaryHover": "#6B4FBA",
+      "primaryPressed": "#3B2870",
       "secondary": "#D6BCFA",
-      "onSecondary": "#553C9A",
-      "success": "#3DC253",
-      "error": "#E46262",
-      "warning": "#CAAD5F",
+      "onSecondary": "#3B2870",
+      "success": "#16A34A",
+      "onSuccess": "#FFFFFF",
+      "error": "#DC2626",
+      "onError": "#FFFFFF",
+      "warning": "#CA8A04",
       "onWarning": "#000000",
-      "primaryContainer": "#F5F0FF",
+      "border": "#D6BCFA",
+      "borderSubtle": "#F0EAFF",
+      "disabledContainer": "#E9E0FA",
+      "onDisabled": "#A78BDB",
+      "primaryContainer": "#F0EAFF",
       "onPrimaryContainer": "#3B2870",
       "secondaryContainer": "#F5F0FF",
-      "onSecondaryContainer": "#3B2870"
+      "onSecondaryContainer": "#4A3580",
+      "errorContainer": "#FEE2E2",
+      "onErrorContainer": "#991B1B",
+      "successContainer": "#DCFCE7",
+      "onSuccessContainer": "#166534",
+      "warningContainer": "#FEF9C3",
+      "onWarningContainer": "#854D0E",
+      "overlay": "#1A1235"
     },
     "fontFamily": {
       "brand": "Poppins",
-      "interface": "Poppins"
+      "interface": "Poppins",
+      "data": "JetBrains Mono"
+    },
+    "fontSize": {
+      "display": 39,
+      "h1": 31,
+      "h2": 25,
+      "h3": 20,
+      "body": 16,
+      "small": 12.8,
+      "button": 16
+    },
+    "fontWeight": {
+      "heading": 700,
+      "body": 400,
+      "button": 500
+    },
+    "lineHeight": {
+      "heading": 24,
+      "body": 24,
+      "uiLabel": 16
+    },
+    "letterSpacing": {
+      "heading": -0.02,
+      "body": 0,
+      "label": 0.02
+    },
+    "paragraphSpacing": {
+      "body": 16,
+      "editorial": 24
+    },
+    "paragraphIndent": {
+      "editorial": 0
     },
     "borderRadius": {
       "small": 8,
-      "medium": 24,
-      "large": 16
-    }
-  },
-  "component": {
-    "button": {
-      "paddingVertical": 12,
-      "cornerRadius": 24,
-      "fontFamily": "Poppins",
-      "filled": { "background": "#553C9A" },
-      "outline": { "border": "#553C9A", "content": "#553C9A" },
-      "text": { "content": "#553C9A" },
-      "state": { "hoverBackground": "#9F7AEA", "pressedBackground": "#D6BCFA" }
+      "medium": 16,
+      "large": 24,
+      "full": 9999
     },
-    "card": {
-      "padding": 24,
-      "cornerRadius": 16,
-      "elevation": 4,
-      "headingFontFamily": "Poppins",
-      "bodyFontFamily": "Poppins"
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24
     },
-    "textField": {
-      "cornerRadius": 24,
-      "focusBorderColor": "#553C9A",
-      "fontFamily": "Poppins"
+    "borderWidth": {
+      "thin": 1,
+      "medium": 2
     },
-    "checkbox": {
-      "cornerRadius": 8,
-      "checkedBackground": "#553C9A",
-      "labelFontFamily": "Poppins"
+    "elevation": {
+      "none": 0,
+      "xs": 1,
+      "sm": 2,
+      "md": 4,
+      "lg": 6,
+      "xl": 8
     },
-    "fab": {
-      "cornerRadius": 9999,
-      "background": "#553C9A",
-      "hoverBackground": "#9F7AEA",
-      "pressedBackground": "#D6BCFA"
+    "size": {
+      "xs": 2,
+      "sm": 4,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "xxl": 48,
+      "xxxl": 64
     },
-    "chip": {
-      "cornerRadius": 24,
-      "background": "#F5F0FF",
-      "contentColor": "#3B2870",
-      "selectedBackground": "#553C9A",
-      "selectedContentColor": "#FFFFFF",
-      "fontFamily": "Poppins"
-    },
-    "snackbar": {
-      "cornerRadius": 24,
-      "fontFamily": "Poppins"
-    },
-    "dialog": {
-      "cornerRadius": 16,
-      "titleFontFamily": "Poppins",
-      "bodyFontFamily": "Poppins"
-    },
-    "appBar": {
-      "titleFontFamily": "Poppins"
-    },
-    "badge": {
-      "fontFamily": "Poppins"
-    },
-    "table": {
-      "cornerRadius": 24,
-      "fontFamily": "Poppins"
+    "opacity": {
+      "disabled": 0.4,
+      "overlay": 0.5
     }
   }
 }

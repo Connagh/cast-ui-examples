@@ -2,191 +2,111 @@
   "name": "luxury",
   "semantic": {
     "color": {
-      "surface": "#000000",
+      "surface": "#0A0A0A",
       "onSurface": "#E9D8A6",
-      "onSurfaceMuted": "#B1B1B1",
-      "surfaceContainer": "#696969",
+      "onSurfaceMuted": "#A8A8A8",
+      "surfaceContainer": "#1A1A1A",
       "primary": "#CAAD5F",
-      "onPrimary": "#000000",
-      "primaryHover": "#E9D8A6",
+      "onPrimary": "#0A0A0A",
+      "primaryHover": "#E0C878",
       "primaryPressed": "#947C3E",
-      "secondary": "#B1B1B1",
-      "onSecondary": "#000000",
-      "success": "#3DC253",
-      "onSuccess": "#000000",
-      "error": "#E46262",
-      "onError": "#000000",
+      "secondary": "#A8A8A8",
+      "onSecondary": "#0A0A0A",
+      "success": "#5DA97A",
+      "onSuccess": "#0A0A0A",
+      "error": "#C75050",
+      "onError": "#0A0A0A",
       "warning": "#CAAD5F",
-      "onWarning": "#000000",
+      "onWarning": "#0A0A0A",
       "border": "#947C3E",
-      "borderSubtle": "#696969",
-      "disabledContainer": "#696969",
-      "onDisabled": "#B1B1B1",
-      "primaryContainer": "#6B592D",
+      "borderSubtle": "#2A2A2A",
+      "disabledContainer": "#2A2A2A",
+      "onDisabled": "#666666",
+      "primaryContainer": "#2E2610",
       "onPrimaryContainer": "#E9D8A6",
-      "secondaryContainer": "#3D3D3D",
+      "secondaryContainer": "#2A2A2A",
       "onSecondaryContainer": "#D8D8D8",
-      "errorContainer": "#4A0808",
-      "onErrorContainer": "#E99E9E",
-      "successContainer": "#084A14",
-      "onSuccessContainer": "#9EE9A1",
-      "warningContainer": "#6B592D",
-      "onWarningContainer": "#E9D8A6"
+      "errorContainer": "#2E1010",
+      "onErrorContainer": "#E8A0A0",
+      "successContainer": "#102E18",
+      "onSuccessContainer": "#A0E8B0",
+      "warningContainer": "#2E2610",
+      "onWarningContainer": "#E9D8A6",
+      "overlay": "#000000"
     },
     "fontFamily": {
       "brand": "Playfair Display",
-      "interface": "Cormorant Garamond"
+      "interface": "Cormorant Garamond",
+      "data": "JetBrains Mono"
     },
-    "fontSize": { "button": 12.8 },
-    "fontWeight": { "button": 700 },
-    "paragraphSpacing": { "body": 32, "editorial": 48 },
-    "paragraphIndent": { "editorial": 32 },
-    "borderRadius": { "small": 0, "medium": 0, "large": 0, "full": 0 }
-  },
-  "component": {
-    "button": {
-      "paddingHorizontal": 32,
-      "paddingVertical": 16,
-      "gap": 12,
-      "cornerRadius": 0,
-      "textSize": 12.8,
-      "fontWeight": 700,
-      "fontFamily": "Cormorant Garamond",
-      "filled": { "background": "#CAAD5F", "content": "#000000" },
-      "outline": { "background": "#000000", "border": "#CAAD5F", "content": "#CAAD5F" },
-      "text": { "background": "#000000", "content": "#CAAD5F" },
-      "state": {
-        "hoverBackground": "#E9D8A6",
-        "pressedBackground": "#947C3E",
-        "disabledBackground": "#696969",
-        "disabledContent": "#B1B1B1"
-      }
+    "fontSize": {
+      "display": 39,
+      "h1": 31,
+      "h2": 25,
+      "h3": 20,
+      "body": 16,
+      "small": 12.8,
+      "button": 12.8
     },
-    "card": {
-      "padding": 32,
-      "gap": 16,
-      "background": "#696969",
-      "stroke": "#947C3E",
-      "strokeWidth": 1,
-      "cornerRadius": 0,
-      "elevation": 0,
-      "headingSize": 25,
-      "headingFontFamily": "Playfair Display",
-      "bodyFontFamily": "Cormorant Garamond"
+    "fontWeight": {
+      "heading": 700,
+      "body": 400,
+      "button": 700
     },
-    "textField": {
-      "paddingHorizontal": 16,
-      "paddingVertical": 12,
-      "cornerRadius": 0,
-      "borderWidth": 1,
-      "background": "#000000",
-      "borderColor": "#947C3E",
-      "focusBorderColor": "#CAAD5F",
-      "errorBorderColor": "#E46262",
-      "textColor": "#E9D8A6",
-      "placeholderColor": "#B1B1B1",
-      "fontFamily": "Cormorant Garamond",
-      "labelColor": "#E9D8A6"
+    "lineHeight": {
+      "heading": 24,
+      "body": 24,
+      "uiLabel": 16
     },
-    "checkbox": {
-      "cornerRadius": 0,
-      "borderColor": "#947C3E",
-      "checkedBackground": "#CAAD5F",
-      "checkedIconColor": "#000000",
-      "labelColor": "#E9D8A6",
-      "labelFontFamily": "Cormorant Garamond"
+    "letterSpacing": {
+      "heading": -0.02,
+      "body": 0,
+      "label": 0.08
     },
-    "fab": {
-      "cornerRadius": 0,
-      "background": "#CAAD5F",
-      "iconColor": "#000000",
-      "hoverBackground": "#E9D8A6",
-      "pressedBackground": "#947C3E",
-      "elevation": 0
+    "paragraphSpacing": {
+      "body": 32,
+      "editorial": 48
     },
-    "autocomplete": {
-      "dropdownBackground": "#000000",
-      "dropdownCornerRadius": 0,
-      "optionHoverBackground": "#696969"
+    "paragraphIndent": {
+      "editorial": 32
     },
-    "select": {
-      "dropdownBackground": "#000000",
-      "dropdownCornerRadius": 0,
-      "optionHoverBackground": "#696969",
-      "indicatorColor": "#CAAD5F"
+    "borderRadius": {
+      "small": 0,
+      "medium": 0,
+      "large": 0,
+      "full": 0
     },
-    "switch": {
-      "trackCornerRadius": 0,
-      "trackOffBackground": "#947C3E",
-      "trackOnBackground": "#CAAD5F",
-      "thumbCornerRadius": 0,
-      "thumbOffBackground": "#000000",
-      "thumbOnBackground": "#000000"
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 16,
+      "lg": 24,
+      "xl": 32
     },
-    "badge": {
-      "cornerRadius": 0,
-      "fontFamily": "Cormorant Garamond"
+    "borderWidth": {
+      "thin": 1,
+      "medium": 1
     },
-    "chip": {
-      "cornerRadius": 0,
-      "background": "#3D3D3D",
-      "contentColor": "#D8D8D8",
-      "selectedBackground": "#6B592D",
-      "selectedContentColor": "#E9D8A6",
-      "fontFamily": "Cormorant Garamond"
+    "elevation": {
+      "none": 0,
+      "xs": 0,
+      "sm": 0,
+      "md": 0,
+      "lg": 0,
+      "xl": 0
     },
-    "divider": {
-      "color": "#947C3E"
+    "size": {
+      "xs": 2,
+      "sm": 4,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "xxl": 48,
+      "xxxl": 64
     },
-    "table": {
-      "headerBackground": "#696969",
-      "cornerRadius": 0,
-      "rowBorderColor": "#947C3E",
-      "fontFamily": "Cormorant Garamond"
-    },
-    "alert": {
-      "cornerRadius": 0,
-      "borderWidth": 1
-    },
-    "backdrop": {
-      "opacity": 0.7
-    },
-    "skeleton": {
-      "background": "#3D3D3D",
-      "highlight": "#696969",
-      "cornerRadius": 0
-    },
-    "snackbar": {
-      "background": "#E9D8A6",
-      "contentColor": "#000000",
-      "actionColor": "#CAAD5F",
-      "cornerRadius": 0,
-      "fontFamily": "Cormorant Garamond"
-    },
-    "dialog": {
-      "background": "#000000",
-      "cornerRadius": 0,
-      "elevation": 0,
-      "titleFontFamily": "Playfair Display",
-      "bodyFontFamily": "Cormorant Garamond"
-    },
-    "appBar": {
-      "background": "#000000",
-      "titleColor": "#E9D8A6",
-      "titleFontFamily": "Playfair Display",
-      "iconColor": "#CAAD5F",
-      "borderColor": "#947C3E"
-    },
-    "link": {
-      "color": "#CAAD5F",
-      "hoverColor": "#E9D8A6",
-      "visitedColor": "#B1B1B1"
-    },
-    "speedDial": {
-      "actionBackground": "#3D3D3D",
-      "actionIconColor": "#E9D8A6",
-      "actionCornerRadius": 0,
-      "actionElevation": 0
+    "opacity": {
+      "disabled": 0.3,
+      "overlay": 0.7
     }
   }
 }

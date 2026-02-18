@@ -2,88 +2,111 @@
   "name": "corporate",
   "semantic": {
     "color": {
+      "surface": "#FFFFFF",
       "onSurface": "#0C346F",
+      "onSurfaceMuted": "#4A6FA5",
+      "surfaceContainer": "#F0F5FB",
       "primary": "#0C346F",
-      "primaryHover": "#628BE4",
-      "primaryPressed": "#9EC2E9",
-      "secondary": "#475569",
+      "onPrimary": "#FFFFFF",
+      "primaryHover": "#0A2A59",
+      "primaryPressed": "#081F43",
+      "secondary": "#4A6FA5",
       "onSecondary": "#FFFFFF",
-      "border": "#9EC2E9",
-      "borderSubtle": "#E2E8F0",
-      "primaryContainer": "#EBF2FB",
+      "success": "#1B7A3D",
+      "onSuccess": "#FFFFFF",
+      "error": "#B91C1C",
+      "onError": "#FFFFFF",
+      "warning": "#92680A",
+      "onWarning": "#FFFFFF",
+      "border": "#B8CEE8",
+      "borderSubtle": "#E2EDF8",
+      "disabledContainer": "#D6E3F1",
+      "onDisabled": "#8FAED3",
+      "primaryContainer": "#D6E3F1",
       "onPrimaryContainer": "#072350",
-      "secondaryContainer": "#E2E8F0"
+      "secondaryContainer": "#E2EDF8",
+      "onSecondaryContainer": "#2C4A75",
+      "errorContainer": "#FDE8E8",
+      "onErrorContainer": "#7F1D1D",
+      "successContainer": "#DCFCE7",
+      "onSuccessContainer": "#14532D",
+      "warningContainer": "#FEF3C7",
+      "onWarningContainer": "#713F12",
+      "overlay": "#0C346F"
     },
     "fontFamily": {
       "brand": "Merriweather",
-      "interface": "Inter"
+      "interface": "Inter",
+      "data": "JetBrains Mono"
+    },
+    "fontSize": {
+      "display": 39,
+      "h1": 31,
+      "h2": 25,
+      "h3": 20,
+      "body": 16,
+      "small": 12.8,
+      "button": 16
+    },
+    "fontWeight": {
+      "heading": 700,
+      "body": 400,
+      "button": 500
+    },
+    "lineHeight": {
+      "heading": 24,
+      "body": 24,
+      "uiLabel": 16
+    },
+    "letterSpacing": {
+      "heading": -0.02,
+      "body": 0,
+      "label": 0.02
     },
     "paragraphSpacing": {
       "body": 8,
       "editorial": 16
     },
+    "paragraphIndent": {
+      "editorial": 0
+    },
     "borderRadius": {
       "small": 2,
       "medium": 4,
-      "large": 8
-    }
-  },
-  "component": {
-    "button": {
-      "paddingHorizontal": 24,
-      "paddingVertical": 12,
-      "cornerRadius": 4,
-      "fontFamily": "Inter",
-      "filled": { "background": "#0C346F" },
-      "outline": { "border": "#0C346F", "content": "#0C346F" },
-      "text": { "content": "#0C346F" },
-      "state": { "hoverBackground": "#628BE4", "pressedBackground": "#9EC2E9" }
+      "large": 8,
+      "full": 9999
     },
-    "card": {
-      "gap": 8,
-      "stroke": "#9EC2E9",
-      "cornerRadius": 8,
-      "elevation": 2,
-      "headingFontFamily": "Merriweather",
-      "bodyFontFamily": "Inter"
+    "spacing": {
+      "xs": 4,
+      "sm": 8,
+      "md": 12,
+      "lg": 16,
+      "xl": 24
     },
-    "textField": {
-      "paddingHorizontal": 16,
-      "cornerRadius": 4,
-      "borderColor": "#9EC2E9",
-      "focusBorderColor": "#0C346F",
-      "fontFamily": "Inter"
+    "borderWidth": {
+      "thin": 1,
+      "medium": 2
     },
-    "checkbox": {
-      "cornerRadius": 2,
-      "checkedBackground": "#0C346F",
-      "labelFontFamily": "Inter"
+    "elevation": {
+      "none": 0,
+      "xs": 1,
+      "sm": 2,
+      "md": 3,
+      "lg": 4,
+      "xl": 6
     },
-    "fab": {
-      "background": "#0C346F",
-      "hoverBackground": "#628BE4",
-      "pressedBackground": "#9EC2E9"
+    "size": {
+      "xs": 2,
+      "sm": 4,
+      "md": 16,
+      "lg": 24,
+      "xl": 32,
+      "xxl": 48,
+      "xxxl": 64
     },
-    "chip": {
-      "cornerRadius": 2,
-      "fontFamily": "Inter"
-    },
-    "snackbar": {
-      "cornerRadius": 4,
-      "fontFamily": "Inter"
-    },
-    "dialog": {
-      "cornerRadius": 8,
-      "titleFontFamily": "Merriweather",
-      "bodyFontFamily": "Inter"
-    },
-    "appBar": {
-      "titleFontFamily": "Merriweather",
-      "borderColor": "#9EC2E9"
-    },
-    "table": {
-      "cornerRadius": 4,
-      "fontFamily": "Inter"
+    "opacity": {
+      "disabled": 0.4,
+      "overlay": 0.5
     }
   }
 }
