@@ -128,7 +128,6 @@ export default function App() {
               <Typography variant="caption">Caption text</Typography>
               <Typography variant="overline">Overline</Typography>
               <Typography variant="label">Label</Typography>
-              <Typography variant="button">Button text</Typography>
             </Section>
 
             <Divider />
@@ -228,11 +227,11 @@ export default function App() {
               <View style={styles.row}>
                 <Button label="Disabled" disabled onPress={() => {}} />
                 <FAB
-                  icon={<Typography variant="button" color="#fff">+</Typography>}
+                  icon={<Typography variant="label" color="#fff">+</Typography>}
                   onPress={() => {}}
                 />
                 <FAB
-                  icon={<Typography variant="button" color="#fff">+</Typography>}
+                  icon={<Typography variant="label" color="#fff">+</Typography>}
                   label="Create"
                   variant="extended"
                   onPress={() => {}}
