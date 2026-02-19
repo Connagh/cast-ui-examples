@@ -101,7 +101,7 @@ export default function App() {
     });
   };
 
-  const surface = currentTheme.value.semantic.color.surface;
+  const surface = currentTheme.value.semantic.colour.surface;
 
   return (
     <CastThemeProvider theme={currentTheme.value}>
